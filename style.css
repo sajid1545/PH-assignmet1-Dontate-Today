@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
 body {
     margin: 0;
@@ -286,7 +287,7 @@ p {
 }
 
 .charity-info h3 {
-    color: yellow;
+    color: orange;
 }
 
 .charity-btn {
@@ -296,4 +297,68 @@ p {
 
 .volunteer-btn {
     background-color: purple;
+}
+
+.get-updates {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.get-updates-title {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.email-box {
+    width: 70%;
+    background-color: #FFF4D6;
+    padding: 8%;
+    margin: 5% auto 12%;
+}
+
+#input-email {
+    padding: 15px;
+    font-size: 20px;
+    width: 40%;
+    /* display: block; */
+    margin-left: 20%;
+    border: 0;
+    background-color: #D9D9D9;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.submit-btn {
+    background-color: #FF5959;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    width: 170px;
+    text-align: center;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    color: white;
+}
+
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+
+.page-foot {
+    width: 50%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+}
+
+.page-foot h3 {
+    font-family: 'Caveat', cursive;
+    color: #FF5959;
 }
