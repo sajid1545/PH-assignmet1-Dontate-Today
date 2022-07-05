@@ -6,6 +6,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+small {
+    font-weight: 700;
+}
+
+.purple-color {
+    color: purple;
+}
+
 h1 {
     font-size: 70px;
 
@@ -141,6 +149,8 @@ p {
 
 .donation-items {
     display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .donation {
@@ -169,7 +179,50 @@ p {
 }
 
 .education {
-    background-color: rgba(255, 244, 214, 25%);
+    background-color: rgba(255, 244, 214, 83%);
     border: none;
 
+}
+
+.volunteer-intro {
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.volunteer-intro h1 {
+    border-bottom: 7px solid orangered;
+}
+
+.our-volunteers {
+    width: 90%;
+    margin: 20px auto 5%;
+}
+
+.volunteers {
+    display: flex;
+}
+
+.volunteer-info {
+    width: 30%;
+    margin: 0 auto 0 50px;
+    box-shadow: 10px 10px 40px gray;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.volunteer-info h3 {
+    margin-bottom: 0;
+}
+
+.volunteer-info img {
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid orangered;
+}
+
+.flood-news {
+    text-align: center;
 }
