@@ -223,6 +223,77 @@ p {
     border: 3px solid orangered;
 }
 
-.flood-news {
+.flood {
+    margin-bottom: 100px;
+    margin-top: 5%;
+}
+
+.flood-info {
     text-align: center;
+}
+
+.news-boxes {
+    display: flex;
+}
+
+.flood-news {
+    width: 50%;
+    box-shadow: 10px 10px 40px lightgray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 20px;
+    border-radius: 25px;
+    padding-bottom: 30px;
+}
+
+.flood-news img {
+    width: 95%;
+    border-radius: 8px;
+}
+
+.read-more {
+    padding: 10px 20px;
+    background-image: linear-gradient(orange, orangered);
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 10px;
+    color: white;
+}
+
+.read-more-btn {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.unity-charity {
+    width: 100%;
+    background-image: url('images/donation1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.charity-info {
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    font-family: cursive;
+}
+
+.charity-info h3 {
+    color: yellow;
+}
+
+.charity-btn {
+    padding: 15px 30px;
+    margin: 10px;
+}
+
+.volunteer-btn {
+    background-color: purple;
 }
