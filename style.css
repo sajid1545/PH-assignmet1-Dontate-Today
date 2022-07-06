@@ -276,14 +276,14 @@ p {
     background-image: url('images/donation1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .charity-info {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 8%;
     color: white;
     font-family: cursive;
 }
