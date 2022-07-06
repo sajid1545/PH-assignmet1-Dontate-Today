@@ -238,6 +238,8 @@ p {
     display: flex;
 }
 
+
+
 .flood-news {
     width: 50%;
     box-shadow: 10px 10px 40px lightgray;
@@ -247,12 +249,12 @@ p {
     padding-top: 50px;
     padding-right: 20px;
     border-radius: 25px;
-    padding-bottom: 30px;
 }
 
 .flood-news img {
     width: 95%;
     border-radius: 8px;
+    height: 35%;
 }
 
 .read-more {
