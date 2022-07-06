@@ -283,13 +283,18 @@ p {
 
 .charity-info {
     text-align: center;
-    padding-top: 8%;
+    padding-top: 10%;
     color: white;
     font-family: cursive;
 }
 
+.charity-info h2 {
+    margin-bottom: 5%;
+}
+
 .charity-info h3 {
     color: orange;
+    font-weight: 900;
 }
 
 .charity-btn {
