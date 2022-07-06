@@ -242,7 +242,7 @@ p {
 
 .flood-news {
     width: 50%;
-    box-shadow: 10px 10px 40px lightgray;
+    box-shadow: lightgrey 20px 4px 20px 10px;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 30px;
